@@ -22,7 +22,7 @@ O papel do Conselho Diretor do NumPy consiste em assegurar o bem-estar a longo p
 - Melissa Weber Mendonça
 - Eric Wieser
 
-Membros Eméritos:
+Emeritus:
 
 - Alex Griffing (2015-2017)
 - Allan Haldane (2015-2021)
@@ -35,7 +35,7 @@ Membros Eméritos:
 
 Para entrar em contato com o conselho diretor do NumPy, por favor envie um email para numpy-team@googlegroups.com.
 
-## Times
+## Teams
 
 A liderança do projeto NumPy trabalha ativamente na diversificação dos caminhos possíveis para contribuições.<br> Atualmente, o NumPy conta com os seguintes times:
 
@@ -58,7 +58,7 @@ Veja a página sobre os [Times]({{< relref "/teams" >}}) para mais informações
 - Sebastian Berg
 - Membro externo: Thomas Caswell
 
-## Patrocinadores
+## Sponsors
 
 O NumPy recebe financiamento direto das seguintes fontes:
 {{< sponsors >}}
