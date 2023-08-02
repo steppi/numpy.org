@@ -1,5 +1,5 @@
 ---
-title: NumPyユーザアンケート
+title: NUMPY USER SURVEYS
 sidebar: false
 ---
 
