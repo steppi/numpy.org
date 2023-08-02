@@ -17,7 +17,7 @@ NumPyの使用方法に関する質問をするためのフォーラムです。
 
 ### [Reddit](https://www.reddit.com/r/Numpy/)
 
-もう一つの使い方に関する質問の場です。
+Another forum for usage questions.
 
 ***
 

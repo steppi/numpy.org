@@ -17,6 +17,6 @@ sidebar: false
 
 {{< include-html "static/gallery/emeritus-maintainers.html" >}}
 
-# ガバナンス
+# Governance
 
 For the list of people on the Steering Council, please see [here](https://numpy.org/devdocs/dev/governance/people.html).

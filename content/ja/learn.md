@@ -1,5 +1,5 @@
 ---
-title: NumPyの学び方
+title: Learn
 sidebar: false
 ---
 
@@ -27,7 +27,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 <i class="fas fa-book"></i> **チュートリアル**
 
 * [NumPガイド *Travelis E. Oliphant著*](http://web.mit.edu/dvp/Public/numpybook.pdf) これは2006年の無料版の初版です 最新版(2015年)については、こちら [を参照ください](https://www.barnesandnoble.com/w/guide-to-numpy-travis-e-oliphant-phd/1122853007).
-* [PythonにおけるNumPy (発展編)](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
+* [From Python to NumPy *by Nicolas P. Rougier*](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 * [エレガントなSciPy](https://www.amazon.com/Elegant-SciPy-Art-Scientific-Python/dp/1491922877) *Juan Nunez-Iglesias・Stefan van der Walt・Harriet Dashnow 著*
 
 また、「Python+SciPy」を題材にした[推薦本リスト](https://www.goodreads.com/shelf/show/python-scipy) もチェックしてみてください。 ほとんどの本にはNumPyを核とした「SciPyエコシステム」が説明されています。
@@ -44,7 +44,7 @@ NumPyについての資料は多数存在しています。 初心者の方に�
 
 <i class="fas fa-chalkboard"></i> **書籍**
 
-* https://www.tutorialspoint.com/numpy/numpy_advanced_indexing.htm
+* [100 NumPy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/index.html) *by Nicolas P. Rougier*
 * [NumPyとSciPyへのイントロダクション](https://engineering.ucsb.edu/~shell/che210d/numpy.pdf) *M. Scott Shell著*
 * [NumPy救急キット](http://mentat.za.net/numpy/numpy_advanced_slides/) *Stéfan van der Walt著*
 * [NumPyチュートリアル](https://numpy.org/numpy-tutorials)で、いくつかのチュートリアルと教育的資料を見ることができます。 このページのゴールは、NumPyプロジェクトによる質のいい資料を提供することです。 自習と講義形式の両方を想定しており、Jupyterノートブック形式で提供されます。 もしあなた自身の資料を追加することに興味がある場合、[Github上のnumpy-tutorialsリポジトリ](https://github.com/numpy/numpy-tutorials)をチェックしてみて下さい。

@@ -20,7 +20,7 @@ sidebar: false
 ### 主な目的
 
 * LIGOの[ミッション](https://www.ligo.caltech.edu/page/what-is-ligo)は、宇宙で最も激しくエネルギーに満ちたプロセスからの重力波を検出することですが、LIGOが収集するデータは、重力、相対性理論、天体物理学、宇宙論、素粒子物理学、原子核物理学など、物理学の多くの分野に広く影響を与える可能性があります。
-* 複雑な数学を含む相対性理論の数値計算によって観測データを解析し、信号とノイズを識別し、関連性のある信号をフィルタリングし、観測データの有意性を統計的に推定することで、宇宙の始まりのクランチを観測できるようになります。
+* Crunch observed data via numerical relativity computations that involves complex maths in order to discern signal from noise, filter out relevant signal and statistically estimate significance of observed data
 * バイナリや数値の結果を理解しやすいようにデータを可視化することも必要です。
 
 
@@ -31,7 +31,7 @@ sidebar: false
 
     合成により放出される重力波は、スーパーコンピュータを用いて数値相対性を手あたり次第に試すような方法では計算できません。 LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。
 
-* **データの氾濫**
+* **Data Deluge**
 
     観測装置がより高感度で信頼性を持つようになると、データの大洪水によって、干し草の中から針を探すような問題が、多重に発生することがわかります。 LIGOは毎日テラバイトのデータを生成しているのです！ この大量のデータを解釈するには、各検出ごとに多大な労力が必要です。 例えば、LIGOによって収集される信号は、数十万個の重力波シグネチャのテンプレートで構成されており、スーパーコンピュータでしか解析できません。
 
