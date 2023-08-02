@@ -9,7 +9,7 @@ Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fal
 
 Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em <numpy-team@googlegroups.com> ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para <numpy-team@googlegroups.com> para obter um convite antes de entrar).
 
-Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). Convidamos você a participar. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
+Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion). You are very welcome to join. Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
 Nossa comunidade deseja tratar todos da mesma forma e valorizar todas as contribuições. Temos um [Código de Conduta](/pt/code-of-conduct) para promover um ambiente aberto e acolhedor.
 
@@ -39,7 +39,7 @@ O [*issue tracker* do NumPy](https://github.com/numpy/numpy/issues) tem _um mont
 * adicionar bons exemplos autocontidos que reproduzam issues
 * rotular issues corretamente (isso requer direitos de triagem -- basta perguntar)
 
-Sinta-se à vontade!
+Please just dive in.
 
 
 ### Desenvolvimento do site
