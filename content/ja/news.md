@@ -7,9 +7,9 @@ date: 2023-06-17
 
 ### NumPy 1.25.0 リリース
 
-_2023年1月17日_ -- [Numpy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
 
-* MUSLのサポート。MUSLのWheelが準備されました。
+* MUSLのサポート。 MUSLのWheelが準備されました。
 * 富士通のC/C++コンパイラサポート
 * einsum でオブジェクト配列がサポートされるようになりました.
 * 行列の置き換え(inplace)掛け算のサポート (`@=`).
@@ -36,25 +36,25 @@ _2022年12月18日_ -- [Numpy 1.24.0](https://numpy.org/doc/stable/release/1.24.
 
 * スタッキング関数のための新しい"dtype"と"casting"キーワードの追加
 * F2PYの新機能追加とバグ修正
-* 多くの新しい非推奨(Deprecation)の追加
-* 多くの期限切れの非推奨(Deprecation)の削除
+* Many new deprecations, check them out.
+* Many expired deprecations,
 
 Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 dtype のプロモーションとクリーンアップの変更により、多数の新規と期限切れの非推奨が存在しています。 今回のリリースは、444個のプルリクエストと177人のコントリビューターによるものです。 サポートされている Python のバージョンは 3.8-3.11 です。
 
 ### Numpy 1.23.0 リリース
 
-_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
+_2021年12月31日_ -- [Numpy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 * `loadtxt` がCで実装されたことによる、大幅なパフォーマンス向上
 * より簡単なデータ交換のためのPythonレベルでのDLPackの公開
 * 構造化されたdtypesのプロモーションと比較方法の変更
 * f2pyの改善
 
-Numpy 1.23. リリースでは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 今回のリリースは、494個のプルリクエストと151人のコントリビューターによるものです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 Python 3.11がrc ステージに到達すると Python 3.11 もサポートされます。
+The NumPy 1.23.0 release continues the ongoing work to improve the handling and promotion of dtypes, increase the execution speed, clarify the documentation, and expire old deprecations. 今回のリリースは、494個のプルリクエストと151人のコントリビューターによるものです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 Python 3.11がrc ステージに到達すると Python 3.11 もサポートされます。
 
 ### NumFOCUS DEI研究への参加募集
 
-_2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して、[ある研究プロジェクト](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)を進めており、これは[Gordon & Betty Moore Foundation](https://www.moore.org/)によって資金提供されています。このプロジェクトでは、オープンソースソフトウェアコミュニティにおいて、特に歴史的に代表されてこなかったグループからの貢献者が参加する際の障壁を理解することを目的としています。 この研究チームは、新しい貢献者、プロジェクトの開発者およびメンテナー、そして過去に貢献した方々に、NumPyに参加し貢献した経験について話を聞きたいと考えています。
+_2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して、[ある研究プロジェクト](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)を進めており、これは[Gordon & Betty Moore Foundation](https://www.moore.org/)によって資金提供されています。 この研究チームは、新しい貢献者、プロジェクトの開発者およびメンテナー、そして過去に貢献した方々に、NumPyに参加し貢献した経験について話を聞きたいと考えています。
 
 **あなたの経験を共有することに興味がありますか?**
 
@@ -62,7 +62,7 @@ _2022年4月13日_ -- NumPyは、[NumFOCUS](http://numfocus.org/)と協力して
 
 ### NumPy 1.19.2 リリース
 
-_2021年12月31日_ -- [Numpy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 * メインの名前空間の型アノテーションは基本的に完了しました。 上流のコードは常に変化するものなので、さらなる改良が必要でしょうが、大きな作業は終わったと考えています。 これはおそらく、今回のリリースで最も目に見える改良でしょう。
 * 以前から提案されていた [array API 標準](https://data-apis.org/array-api/latest/) のベータ版が提供されています ( [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html) を参照) 。 これは、CuPy や JAX などのライブラリで使用できる 関数の標準的なコレクションを作成するために必要なステップです。
@@ -77,7 +77,7 @@ NumPy 1.22.0は、153人の貢献者が609のプルリクエストを作成し�
 
 _ 2021年8月31日_ -- この度、Chan Zuckerberg Initiativeより、科学的なPythonプロジェクトにおいて、歴史的に疎外されてきたグループの人々のオンボーディング、インクルージョン、リテンションを支援し、NumPy、SciPy、Matplotlib、Pandasのコミュニティダイナミクスを構造的に改善するための [ 助成金を授与されました ](https://chanzuckerberg.com/newsroom/czi-awards-16-million-for-foundational-open-source-software-tools-essential-to-biomedicine/) ことをお知らせします。
 
-[ CZIのEssential Open Source Software for Scienceプログラム ](https://chanzuckerberg.com/eoss/)の一環として、この[ Diversity & Inclusion補助金 ](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)は、開けたなオープンソースコミュニティを育成するためにやるべきことを特定したり、文書化したり、実施したりするためのコントリビュータ体験のリーダー専任職の創設を支援することになります。 このプロジェクトは、Melissa Mendonça (NumPy) が中心となって、下記の方々の追加のメンタリングとサポートにより実施されます。Ralf Gommers (NumPy、SciPy)、Hannah AizenmanとThomas Caswell (Matplotlib)、Matt Haberland (SciPy)、そして Joris Van den Bossche (Pandas)。
+[ CZIのEssential Open Source Software for Scienceプログラム ](https://chanzuckerberg.com/eoss/)の一環として、この[ Diversity & Inclusion補助金 ](https://cziscience.medium.com/advancing-diversity-and-inclusion-in-scientific-open-source-eaabe6a5488b)は、開けたなオープンソースコミュニティを育成するためにやるべきことを特定したり、文書化したり、実施したりするためのコントリビュータ体験のリーダー専任職の創設を支援することになります。 このプロジェクトは、Melissa Mendonça (NumPy) が中心となって、下記の方々の追加のメンタリングとサポートにより実施されます。 Ralf Gommers (NumPy、SciPy)、Hannah AizenmanとThomas Caswell (Matplotlib)、Matt Haberland (SciPy)、そして Joris Van den Bossche (Pandas)。
 
 このプロジェクトは私たちのOSSプロジェクトのコミュニティダイナミクスを構造的に改善する方法を発見し、実施することを目指す野心的なプロジェクトです。 このような複数のプロジェクトの横断的な役割を確立することで、Scientific Pythonコミュニティに新しいコラボレーションモデルを導入し、エコシステム内のコミュニティ構築作業をより効率的に、より大きな成果を生めるようにしたいと考えています。 特にこのプロジェクトにより、歴史的にこれまで代表的ではなかったグループからの新しいコントリビュータを引き付け、貢献を維持するために、何がうまくいき、何がうまくいかないかを、より明確に把握できるようになると期待しています。 最後に、実施したアクションについて詳細な報告書を作成し、プロジェクトの代表者やコミュニティとの交流の面で、プロジェクトにどのような影響を与えたかを説明する予定です。
 
@@ -87,14 +87,14 @@ _ 2021年8月31日_ -- この度、Chan Zuckerberg Initiativeより、科学的�
 
 _2021年7月12日_ -- NumPy ではコミュニティの力を信じています。 昨年の第1回アンケートには、75カ国から1,236名のNumPyユーザーが参加してくれました。 この調査結果により、今後12ヶ月間、私たちがどのようなことに集中すべきかを、非常に良く理解することができました。
 
-今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
+It’s time for another survey, and we are counting on you once again. It will take about 15 minutes of your time. アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
 
 こちらのリンク先から、アンケートを始めることができます: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSL4q.
 
 
 ### NumPy 1.19.0 リリース
 
-_2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
+_2023年1月17日_ -- [Numpy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 - より多くの機能やプラットフォームをカバーするためのSIMD関連の改善が実施されました。
 - dtypeのための新しいインフラとキャストの準備
@@ -103,7 +103,7 @@ _2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0
 - アノテーションの改善
 - 乱数生成用の新しい `PCG64DXSM` ビット生成機
 
-今回のNumpy リリースは、175人による581件のプルリクエストのマージの結果です。  このリリースでサポートされている Python のバージョンは 3.7-3.9 です。Python 3.10 がリリースされた後、Python 3.10 のサポートが追加されます。
+今回のNumpy リリースは、175人による581件のプルリクエストのマージの結果です。  このリリースでサポートされている Python のバージョンは 3.7-3.9 です。 Python 3.10 がリリースされた後、Python 3.10 のサポートが追加されます。
 
 
 ### 2020年度 NumPy アンケート結果
@@ -142,7 +142,7 @@ _2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-no
 
 _2020年7月2日_ -- このアンケート調査は、NumPyにおける、ソフトウェアとしてとコミュニティの両方における意思決定の指針となり、優先順位を決定する役に立ちました。 この調査結果は英語以外のこれらの8つの言語で利用可能です: バングラ, ヒンディー語, 日本語, マンダリン, ポルトガル語, ロシア語, スペイン語とフランス語.
 
-NumPy をより良くするために、こちらの [アンケート](https://umdsurvey. umd. edu/jfe/form/SV_8bJrXjbhXf7saAl) に協力してもらえると助かります。
+NumPy をより良くするために、こちらの \[アンケート\](https://umdsurvey. umd. edu/jfe/form/SV_8bJrXjbhXf7saAl) に協力してもらえると助かります。
 
 
 ### NumPy に新しいロゴができました!
@@ -175,7 +175,7 @@ _2019年12月22日_ -- NumPy 1.18.0 がリリースされました。 このリ�
 
 _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つであるOpenBLASが、Chan Zuckerberg財団の[Essential Open Source Software for Scienceプログラム](https:/chanzuckerberg.comeoss)を通じて、科学に不可欠なオープンソースツールのソフトウェアのメンテナンス、成長、開発、コミュニティへの参加などを支援する195,000ドルの共同助成金を獲得したことを発表しました。
 
-この助成金は、Numpy ドキュメントやウェブサイトの再設計などの改善に向けた取り組みを促進するために使用されます。 大規模かつ急速に拡大するユーザーの体験をより良くし、プロジェクトの長期的な持続可能性を確保するためのコミュニティ開発を行っていきます。 OpenBLASチームは、技術的に非常に重要な問題である、スレッド安全性、AVX-512に対処することに注力します。 また、スレッドローカルストレージ(TLS) の問題や、OpenBLASが依存するReLAPACK(再帰的なLAPACK) のアルゴリズムの改善も実施します。
+This grant will be used to ramp up the efforts in improving NumPy documentation, website redesign, and community development to better serve our large and rapidly growing user base, and ensure the long-term sustainability of the project. OpenBLASチームは、技術的に非常に重要な問題である、スレッド安全性、AVX-512に対処することに注力します。 また、スレッドローカルストレージ(TLS) の問題や、OpenBLASが依存するReLAPACK(再帰的なLAPACK) のアルゴリズムの改善も実施します。
 
 提案されたイニシアチブとその成果の詳細については、 [フルグラントプロポーザル](https://figshare.com/articles/Proposal_NumPy_OpenBLAS_for_Chan_Zuckerberg_Initiative_EOSS_2019_round_1/10302167) を参照してください。 この取り組みは2019年12月1日から始まり、今後12ヶ月間継続実施される予定です。
 
