@@ -43,7 +43,7 @@ A versão 1.24.0 do NumPy continua o trabalho de melhorias no suporte e promoç�
 
 ### NumPy versão 1.23.0
 
-_22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
+_31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) está agora disponível. Os destaques desta versão são:
 
 * Implementação de `loadtxt` em C, melhorando muito seu desempenho.
 * Exposição do DLPack ao nível de Python para facilitar a troca de dados.
@@ -62,7 +62,7 @@ Por favor, preencha este breve formulário: ["Participant Interest form"](https:
 
 ### NumPy versão 1.22.0
 
-_31 de dezembro de 2021_ -- [NumPy 1.22.0](https://numpy.org/doc/stable/release/1.22.0-notes.html) está agora disponível. Os destaques desta versão são:
+_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
 
 * Anotações de tipo do namespace principal estão praticamente completas. Ainda há trabalho a se fazer no upstream, mas a maior parte do trabalho está feita. Esta é provavelmente a melhoria mais visível para os usuários nesta versão.
 * Uma versão preliminar da proposta do [array API Standard](https://data-apis.org/array-api/latest/) está disponível (veja [NEP 47](https://numpy.org/neps/nep-0047-array-api-standard.html)). Este é um passo na criação de uma coleção padrão de funções que podem ser compartilhadas entre bibliotecas como CuPy e JAX.
@@ -94,7 +94,7 @@ Siga o link para começar: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBX
 
 ### NumPy versão 1.19.0
 
-_23 de junho de 2021_ -- O [NumPy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) está disponível. Os destaques desta versão são:
+_22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
 
 - a continuação do trabalho com SIMD para suportar mais funções e plataformas,
 - trabalho inicial na infraestrutura e conversão de novos dtypes,
