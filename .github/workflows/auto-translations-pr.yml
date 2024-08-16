@@ -1,0 +1,44 @@
+name: Create Translations PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      language_code:
+        description: 'Crowdin language code for the language of interest'
+        required: true
+
+jobs:
+  auto-translation-pr:
+    runs-on: ubuntu-latest
+    # Run only on main branch in upstream repo.
+    if: ${{ github.repository == 'steppi/numpy.org' && github.ref == 'refs/heads/auto-translation-pr' }}
+    steps:
+      - name: Checkout numpy.org
+        uses: actions/checkout@v4
+        with:
+          repository: 'numpy/numpy.org'
+          path: 'numpy.org'
+          ref: 'main'
+
+      - name: Checkout scientific-python-translations automations
+        uses: actions/checkout@v4
+        with:
+          repository: 'steppi/automations'
+          path: 'automations'
+          ref: 'filter_commits'
+
+      - name: Create translations branch for language of interest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd numpy.org
+          ../automations/scripts/create_branch_for_language.sh numpy main l10n_main ${{ github.event.inputs.language_code }}
+        working-directory: ./numpy.org
+
+        - name: Create Pull Request
+          if: env.CONTENT_CHANGED == 'true'
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          run:
+            gh pr create --base main --head ${{ env.BRANCH_NAME }} --title "Update translations for X" --body "Body goes here."
+          working-directory: ./numpy.org
