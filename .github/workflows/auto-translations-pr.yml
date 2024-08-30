@@ -11,7 +11,7 @@ jobs:
   auto-translation-pr:
     runs-on: ubuntu-latest
     # Run only on main branch in upstream repo.
-    if: ${{ github.repository == 'steppi/numpy.org' && github.ref == 'refs/heads/auto-translation-pr' }}
+    if: ${{ github.repository == 'steppi/numpy.org' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout numpy.org
         uses: actions/checkout@v4
