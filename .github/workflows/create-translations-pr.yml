@@ -19,7 +19,9 @@ jobs:
           repository: 'steppi/numpy.org'
           path: 'numpy.org'
           ref: 'main'
-          fetch-depth: 0
+          fetch-depth: 0  # Gets full github history.
+          # Full history is needed for the scripted interactive rebase
+          # which takes place in create_branch_for_language.sh below.
 
       - name: Checkout scientific-python-translations automations
         uses: actions/checkout@v4
