@@ -40,6 +40,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           ../automations/scripts/create_branch_for_language.sh origin main l10n_main ${{ github.event.inputs.language_code }}
           branch_name=$(git rev-parse --abbrev-ref HEAD)
+          git push -u origin $branch_name
           echo "BRANCH_NAME=$branch_name" >> $GITHUB_ENV
         working-directory: ./numpy.org
 
