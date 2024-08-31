@@ -23,9 +23,9 @@ jobs:
       - name: Checkout scientific-python-translations automations
         uses: actions/checkout@v4
         with:
-          repository: 'steppi/automations'
+          repository: 'scientific-python-translations/automations'
           path: 'automations'
-          ref: 'filter_commits'
+          ref: 'main'
 
       - name: Create translations branch for language of interest
         env:
