@@ -7,10 +7,6 @@ on:
         description: 'Crowdin language code for the language of interest'
         required: true
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
   auto-translation-pr:
     runs-on: ubuntu-latest
