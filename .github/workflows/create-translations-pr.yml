@@ -19,6 +19,7 @@ jobs:
           repository: 'steppi/numpy.org'
           path: 'numpy.org'
           ref: 'main'
+          fetch-depth: 0
 
       - name: Checkout scientific-python-translations automations
         uses: actions/checkout@v4
