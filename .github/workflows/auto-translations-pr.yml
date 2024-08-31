@@ -20,7 +20,7 @@ jobs:
       - name: Checkout numpy.org
         uses: actions/checkout@v4
         with:
-          repository: 'numpy/numpy.org'
+          repository: 'steppi/numpy.org'
           path: 'numpy.org'
           ref: 'main'
           fetch-depth: 0
