@@ -1,22 +1,58 @@
 ---
 title: ニュース
 sidebar: false
-newsHeader: "NumPy 1.26.0 がリリースされました。"
+newsHeader: "NumPy 2.0. がリリースされました!"
 date: 2023-09-16
 ---
+
+### NumPy 2.1.0 がリリースされました。
+
+_2024 Aug, 2024_ -- Numpy 2.1.0 は Python 3.13 をサポートし、Python 3.9をサポート外としました。 今回のリリースは通常のバグ修正やPythonサポートの更新に加えて、NumPyが2.0の長期開発を経て、通常のリリースサイクルに戻るためのリリースでもあります。 今回のリリースのハイライトは下記の通りです。
+
+-   Python 3.13 のサポート
+-   Python 3.13のフリースレッドサポートの事前準備
+-   Array-api 2023.12 標準のサポート
+
+Python バージョン 3.10-3.13 か、このリリースでサポートされています。
+
+
+### NumPy 2.0 リリース日: 6月16日
+
+_2024年6月16日_ -- Numpy 2.0.0 は2006年以来のメジャーリリースです。 これは、前回の機能リリースから11か月間の開発の成果であり、1078件のプルリクエストにわたる212人の貢献者の成果となります。 このリリースには、大きく、エキサイティングな新機能と、PythonとCの両方のAPIへの変更が含まれています。  今回のリリースが、通常のマイナーリリースでは実施できなかった互換性を破壊する変更を含んでいます。これには、ABIの破壊、型昇格ルールの変更、および1.26.xでは非推奨警告が出されていなかった可能性のあるAPIの変更が含まれています。 NumPy 2.0の変更に対応する方法に関する主要なドキュメントは次のとおりです。
+
+- [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0 リリース ノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- ステータスアップデートお知らせに関する問題: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
+ブログ記事 ["NumPy 2.0: 進化のマイルストーン"](https://blog.scientific-python.org/numpy/numpy2/) は、今回のメジャーバージョンリリースがどのようにして決定されたかについてのストーリーを少し伝えています。
+
+
+### NumPy 2.0 リリース日: 6月16日
+
+_ 2024年5月23日_ -- NumPy 2.0が2024年6月16日にリリースされる予定になりました！ このリリースは1年以上かけて我々が準備してきたもので、2006年以来のメジャーリリースとなります。 このリリースで重要なことは、多くの新機能とパフォーマンスの向上に加えて、 このリリースは、 **破壊的な変更** である Python と C API を含む、ABI への変更 が含まれています。 NumPyに依存しているパッケージやエンドユーザーのコードがこのは破壊的変更に適応する必要がある可能性があります。可能であれば、あなたのコードがNumPy `2.0.0rc2`で動作するかどうか確認をお願いします。 **詳細は下記をご覧ください:**
+
+- [NumPy 2.0移行ガイド](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- [2.0.0 リリースノート](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- ステータス更新のお知らせイシューチケット: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
+
+
+### NumFOCUSの年末の資金調達
+_2023年12月19日_ -- NumFOCUSは、年末キャンペーンでPyCharmチームと協力し、PyCharmライセンスの初回購入に30%の割引を提供しています。 2023年12月23日までのPyCharm購入による1年目の収益は全てNumFOCUSのプログラムに直接寄付されます。
+
+購入される方はこちらのURLか:  https://lp.jetbrains.com/support-data-science/ こちらのクーポンコードを利用してください: ISUPPORTDATASCIENCE 
 
 ### NumPy 1.26.0 がリリースされました。
 
 _2023年9月16日_ -- [NumPy 1.26.0](https://numpy.org/doc/stable/release/1.26.0-notes.html)がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 * Python 3.12.0 のサポート
-* Cython 3.0.0 との互換性
+* Cython 3.0.0 への互換性
 * Mesonビルドシステムの利用
 * SIMD サポートの改善
 * f2py のバグ修正, meson と bind(x) のサポート
 * 更新された BLAS/LAPACK の高速化ライブラリのサポート
 
-Numpy 1.26.0 は 1.25 からの互換性を保持しています。Mesonビルドシステムへの移行とCython 3.0.0のサポートが目的のリリースです。 合計20人がこのリリースに貢献し、59個のプルリクエストがマージされました。
+Numpy 1.26.0 は 1.25 からの互換性を保持しています。Mesonビルドシステムへの移行とCython 3.0.0へのサポートが目的のリリースです。 合計20人がこのリリースに貢献し、59個のプルリクエストがマージされました。
 
 このリリースでサポートされている Python のバージョンは3.9から 3.12 です。
 
@@ -82,7 +118,7 @@ Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモ
 
 ### Numpy 1.23.0 リリース
 
-_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。
+_2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースの目玉機能は次のとおりです。
 
 * `loadtxt` がCで実装されたことによる、大幅なパフォーマンス向上
 * より簡単なデータ交換のためのPythonレベルでのDLPackの公開
@@ -225,7 +261,12 @@ _2019年11月15日_ -- NumPyと、NumPyの重要な依存ライブラリの1つ�
 
 こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
-
+- NumPy 2.0.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.2)) -- _2024年8月26日_.
+- NumPy 2.1.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.1.0)) -- _2024年8月18日_.
+- NumPy 2.0.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _2024年7月21日_.
+- NumPy 2.0.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _2024年6月16日_.
+- NumPy 1.26.3 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _ 2024年1月2日_.
+- NumPy 1.26.3 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _ 2024年1月2日_.
 - NumPy 1.26.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023年11月12日_.
 - NumPy 1.26.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _2023年10月14日_.
 - NumPy 1.26.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _2023年9月16日_.
