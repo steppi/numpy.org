@@ -31,7 +31,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd numpy.org
           branch_name=$(../automations/scripts/create_branch_for_language.sh numpy main l10n_main ${{ github.event.inputs.language_code }})
           echo "BRANCH_NAME=$branch_name" >> $GITHUB_ENV
         working-directory: ./numpy.org
