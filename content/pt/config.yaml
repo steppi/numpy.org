@@ -49,13 +49,13 @@ params:
     title: ECOSSISTEMA
   section5: false
   navbar:
-    - title: Instalação
+    - title: Install
       url: /pt/install
-    - title: Documentação
+    - title: Documentation
       url: https://numpy.org/doc/stable
-    - title: Aprenda
+    - title: Learn
       url: /pt/learn
-    - title: Comunidade
+    - title: Community
       url: /pt/community
     - title: Sobre
       url: /pt/about
