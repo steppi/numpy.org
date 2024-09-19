@@ -26,10 +26,10 @@ Somos un equipo internacional en una misión para apoyar a las comunidades cient
 
 {{< grid file="survey-team.toml" columns="2 3 4 5" />}}
 
-### Mantenedores eméritos
+### Emeritus maintainers
 
 {{< grid file="emeritus-maintainers.toml" columns="2 3 4 5" />}}
 
-# Gobernanza
+# Governance
 
 Para la lista de personas del Consejo Directivo, por favor ve [aquí](https://numpy.org/about/).
