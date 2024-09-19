@@ -7,7 +7,7 @@ date: 2024-06-17
 
 ### Lanzamiento de NumPy 2.1.0
 
-_18 de agosto 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados de esta versión son:
+_18 de agosto 2024_ -- NumPy 2.1.0 ofrece soporte para Python 3.13 y deja de dar soporte a Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados de esta versión son:
 
 - Soporte para Python 3.13.
 - Soporte preliminar para Python 3.13 de hilos libres.
@@ -21,8 +21,8 @@ _16 de junio de 2024_ -- NumPy 2.0.0 es el primer lanzamiento importante desde 2
 number of exciting new features as well as changes to both the Python and C
 APIs.  Contiene un gran número de nuevas características interesantes, así como cambios en las APIs de Python y C.  Incluye cambios importantes que no podrían producirse en un lanzamiento menor regular, como una ruptura de ABI, cambios en las reglas de promoción de tipos y cambios en la API que podrían no haber estado emitiendo advertencias de obsolescencia en la versión 1.26.x. Los documentos clave relacionados con cómo adaptarse a los cambios en NumPy 2.0 incluyen:
 
-- La [Guía de migración de NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- Las [notas de lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Emisión de anuncios para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 La publicación ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific-python.org/numpy/numpy2/) cuenta un poco de la historia sobre cómo se llegó a este lanzamiento.
@@ -31,8 +31,8 @@ La publicación ["NumPy 2.0: an evolutionary milestone"](https://blog.scientific
 
 _23 de mayo de 2024_ -- Estamos encantados de anunciar que NumPy 2.0 está previsto que sea lanzado el 16 de junio de 2024. Esta publicación lleva más de un año en proceso y es el primer lanzamiento importante desde 2006. Es importante destacar que, además de muchas nuevas características y mejoras en el rendimiento, contiene **cambios disruptivos** frente al ABI, como también a las APIs de Python y C. Es probable que los paquetes dependientes o downstream y código de usuario final necesiten ser adaptados - si puedes, por favor verifica que tu código funciona con NumPy `2.0.0rc2`. NumPy 1.25. **Por favor, revisa lo siguiente para más detalles:**
 
-- La [guía de migración a NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
-- Las [ notas del lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
+- La [Guía de migración de NumPy 2.0](https://numpy.org/devdocs/numpy_2_0_migration_guide.html)
+- Las [notas de lanzamiento 2.0.0](https://numpy.org/devdocs/release/2.0.0-notes.html)
 - Emisión de anuncios para actualizaciones de estado: [numpy#24300](https://github.com/numpy/numpy/issues/24300)
 
 ### Recaudación de fondos de fin de año de NumFOCUS
