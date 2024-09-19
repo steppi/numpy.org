@@ -1,12 +1,11 @@
 ---
-title: Quiénes Somos
+title: About Us
 sidebar: false
 ---
 
 NumPy es un proyecto de código abierto cuyo objetivo es permitir la computación numérica en Python. Fue creado en el 2005, a partir de los primeros trabajos de las bibliotecas Numeric y Numarray. NumPy siempre será un software 100% de código abierto y de uso libre para todos. Fue liberado bajo los términos liberales de la [licencia BSD modificada](https://github.com/numpy/numpy/blob/main/LICENSE.txt).
 
 NumPy es desarrollado de forma abierta en GitHub, mediante el consenso de las comunidades NumPy y Python científico en general. Para más información sobre nuestro enfoque de gobernanza, por favor consulta nuestro [Documento de Gobernanza](https://www.numpy.org/devdocs/dev/governance/index.html).
-
 
 ## Consejo Directivo
 
@@ -41,7 +40,7 @@ La dirección del proyecto NumPy trabaja activamente para diversificar las vías
 
 - desarrollo
 - documentación
-- clasificación
+- triage
 - página web
 - encuesta
 - traducción
@@ -59,11 +58,10 @@ Visita la página de [Equipos](/teams) para más información.
 - Sebastian Berg
 - Miembro externo: Thomas Caswell
 
-## Patrocinadores
+## Sponsors
 
 NumPy recibe financiación directa de las siguientes fuentes:
 {{< sponsors >}}
-
 
 ## Socios institucionales
 
@@ -74,7 +72,6 @@ Los socios institucionales son organizaciones que apoyan al proyecto empleando a
 - NVIDIA (Sebastian Berg)
 
 {{< partners >}}
-
 
 ## Donar
 
@@ -87,4 +84,3 @@ Las donaciones a NumPy son gestionadas por [NumFOCUS](https://numfocus.org). Par
 El Consejo Directivo de NumPy tomará las decisiones sobre el mejor uso de los fondos recibidos. Las prioridades técnicas y de infraestructura están documentadas en la [Hoja de Ruta de NumPy](https://www.numpy.org/neps/index.html#roadmap).
 
 {{<opencollective>}}
-
