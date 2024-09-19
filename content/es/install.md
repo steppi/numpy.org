@@ -118,8 +118,9 @@ Además del tamaño de instalación, desempeño y robustez, hay dos aspectos má
 Si su instalación falla con el siguiente mensaje, revise el siguiente enlace [Resolución de problemas ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
-¡IMPORTANTE: POR FAVOR LEA ESTO COMO SUGERENCIA PARA RESOLVER ESTE PROBLEMA!
+IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-La importación de las extensiones-c de numpy falló. Este error puede ocurrir por varias razones, siendo frecuente debido a problemas con su configuración.
+Importing the numpy c-extensions failed. This error can happen for
+different reasons, often due to issues with your setup.
 ```
 

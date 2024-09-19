@@ -7,7 +7,7 @@ date: 2024-06-17
 
 ### Lanzamiento de NumPy 2.1.0
 
-_18 de agosto 2024_ -- NumPy 2.1.0 provides support for Python 3.13 and drops support for Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados son:
+_18 de agosto 2024_ -- NumPy 2.1.0 ofrece soporte para Python 3.13 y deja de dar soporte a Python 3.9. Además de las habituales correcciones de errores y soporte actualizado de Python, ayuda a que NumPy vuelva a su ciclo de publicación habitual después del extenso desarrollo de 2.0. Los aspectos más destacados son:
 
 -   Soporte para Python 3.13.
 -   Soporte preliminar para Python 3.13 de hilos libres.
