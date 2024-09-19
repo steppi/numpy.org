@@ -36,7 +36,7 @@ NumPy soporta una amplia gama de hardware y plataformas de computación, y funci
 type = 'card'
 title = 'Óptimo'
 body = '''
-El núcleo de NumPy está optimizado adecuadamente con código en C. Disfrute de la flexibilidad de Python con la velocidad del código compilado.
+El núcleo de NumPy está optimizado adecuadamente con código en C. Disfrute de la flexibilidad de Python con la velocidad del código compilado. Enjoy the flexibility of Python with the speed of compiled code.
 '''
 
 [[item]]
