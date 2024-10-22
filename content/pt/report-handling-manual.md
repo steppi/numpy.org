@@ -21,7 +21,7 @@ A mediação informal voluntária é um instrumento à nossa disposição. Em co
 
 - Encontrar uma pessoa candidata que possa servir de mediadora.
 - Obter o acordo da(s) pessoa(s) relatada(s). A(s) pessoa(s) relatante(s) têm total liberdade para recusar a ideia de mediação ou propor um mediador alternativo.
-- Obter o acordo da(s) pessoa(s) relatante(s).
+- Obter o acordo da(s) pessoa(s) relatada(s).
 - Estabelecer uma pessoa mediadora: enquanto as partes podem propor um mediador diferente da pessoa sugerida, o processo só poderá avançar se for alcançado um acordo comum em todos os termos.
 - Estabelecer um cronograma para a mediação ser concluida, idealmente dentro de duas semanas.
 
