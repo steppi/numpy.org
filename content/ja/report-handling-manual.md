@@ -33,7 +33,7 @@ When the Committee (or a Committee member) receives a report, they will first de
 
 ## 明確かつ深刻な違反行為の解決
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
+私たちは、インターネット上でのやりとりが簡単にひどい誹謗中傷に陥ってしまうことを、痛いほど知っています. We will deal quickly with clear and severe breaches like personal threats, violent, sexist or racist language.
 
 行動規範委員会のメンバーは、明確かつ深刻な違反に気づいた場合、以下のように行動します。
 
