@@ -9,9 +9,9 @@ see below there are many areas where we need **your** help.
 
 Se você não sabe por onde começar ou como suas habilidades podem ajudar, _fale conosco!_ Você pode perguntar na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion) ou [GitHub](http://github.com/numpy/numpy) (abrindo uma [issue](https://github.com/numpy/numpy/issues) ou comentando em uma issue relevante).
 
-No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em <numpy-team@googlegroups.com> ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para <numpy-team@googlegroups.com> para obter um convite antes de entrar).
+Estes são os nossos canais de comunicação preferidos (projetos de código aberto são abertos por natureza!). No entanto, se você preferir discutir em privado, entre em contato com os coordenadores da comunidade em <numpy-team@googlegroups.com> ou no [Slack](https://numpy-team.slack.com) (envie um e-mail para <numpy-team@googlegroups.com> para obter um convite antes de entrar).
 
-Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion).
+Nós também temos uma _reunião aberta da comunidade_ a cada duas semanas. Os detalhes são anunciados na nossa [lista de emails](https://mail.python.org/mailman/listinfo/numpy-discussion).
 You are very welcome to join.
 Se você nunca contribuiu para projetos de código aberto, recomendamos fortemente que você leita [esse guia](https://opensource.guide/how-to-contribute/).
 
@@ -69,6 +69,6 @@ O NumPy foi um projeto totalmente voluntário por muitos anos, mas conforme sua 
 [Esta palestra na SciPy'19](https://www.youtube.com/watch?v=dBTJD_FDVjU) explica quanta diferença esse suporte fez. Como todo o mundo das organizações sem fins lucrativos, nós estamos constantemente procurando bolsas, patrocinadores e outros tipos de apoio. Nós temos uma série de ideias e é claro que nós damos as boas-vindas a mais.
 Habilidade de buscar financiamento é uma habilidade rara aqui -- apreciaríamos a sua ajuda.
 
-### Donate
+### Doações
 
 If you'd like to contribute to NumPy by making a donation, visit [https://numpy.org/about/#donate](https://numpy.org/about/#donate).
