@@ -7,7 +7,7 @@ aliases:
 
 ### Introdução
 
-Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, _issue tracker_, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.
+Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, _issue tracker_, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto NumPy não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.
 
 Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade NumPy formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.
 
