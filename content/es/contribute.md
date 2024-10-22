@@ -4,7 +4,7 @@ sidebar: false
 ---
 
 ¡El proyecto NumPy agradece tu experiencia y entusiasmo!
-Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
+Tus opciones no se limitan a la programación. Como puedes ver más abajo, existen muchas áreas en las que necesitamos **tu** ayuda.
 
 Si no estás seguro por dónde empezar o cómo encajan tus habilidades, _¡acércate!_ Puedes preguntar en la [lista de correos](https://mail.python.org/mailman/listinfo/numpy-discussion) o [GitHub](http://github.com/numpy/numpy) (abre una [propuesta](https://github.com/numpy/numpy/issues) o comenta en una relevante).
 
