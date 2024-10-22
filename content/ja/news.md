@@ -102,7 +102,7 @@ _日本語：_
 
 Looking ahead, we’d love to translate the website into more languages.
 今後も、NumPyのウェブサイトをより多くの言語に翻訳したいと思っています。 もし手伝える場合は、Slack上のNumPy翻訳チームに連絡をお願います: https://join.slack.com/t/numpy-team/shared_invite/zt-1gokbq56s-bvEpo10Ef7aHbVtVFeZv2w.
-(Look for the #translations channel.) (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味](https://numfocus.typeform.com/to/WBWVJSqe)フォームに記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。 (#translation チャンネルを探してください)
+(Look for the #translations channel.) (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. (#translation チャンネルを探してください) また、Scientific Pythonエコシステム全体のドキュメントや教育コンテンツのローカライズに取り組む翻訳チームも 立ち上げています。 このプロジェクトにも興味がある場合は、是非Scientific Python Discordに参加してください: https://discord.gg/khWtqY6RKr. (#translation チャンネルを探してください)
 
 ### NumPy 1.25.0 リリース
 
@@ -161,7 +161,7 @@ _2021年12月31日_ -- [Numpy 1.22.0](https://numpy.org/doc/stable/release/1.22.
 - f2pyの改善
 
 リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 将来の NumPy 2.0.0 に向けた準備作業も行われており、 多数の新規および期限切れの機能廃止が可能となってきています。 It is the work of 151 contributors spread over
-494 pull requests. このプロジェクトは私たちのOSSプロジェクトのコミュニティダイナミクスを構造的に改善する方法を発見し、実施することを目指す野心的なプロジェクトです。 このような複数のプロジェクトの横断的な役割を確立することで、Scientific Pythonコミュニティに新しいコラボレーションモデルを導入し、エコシステム内のコミュニティ構築作業をより効率的に、より大きな成果を生めるようにしたいと考えています。 特にこのプロジェクトにより、歴史的にこれまで代表的ではなかったグループからの新しいコントリビュータを引き付け、貢献を維持するために、何がうまくいき、何がうまくいかないかを、より明確に把握できるようになると期待しています。 最後に、実施したアクションについて詳細な報告書を作成し、プロジェクトの代表者やコミュニティとの交流の面で、プロジェクトにどのような影響を与えたかを説明する予定です。
+494 pull requests. このリリースでサポートされている Python のバージョンは3.3.9 - 3.11 です。
 リリースでは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 今回のリリースは、494個のプルリクエストと151人のコントリビューターによるものです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 Python 3.11がrc ステージに到達すると Python 3.11 もサポートされます。
 
 ### NumFOCUS DEI研究への参加募集
@@ -179,7 +179,7 @@ growth and sustainability of diverse and inclusive open-source software
 communities. Accepted participants will participate in a 30-minute interview
 with a research team member.
 
-### Numpy 1.25.
+### Numpy 1.25. リリースは引き続きdtypeの取り扱いと dtypeのプロモーションを改善し、実行速度を向上させ、 ドキュメントを明確化するための継続的な作業を続けて行く予定です。 将来の NumPy 2.0.0 に向けた準備作業も行われており、 多数の新規および期限切れの機能廃止が可能となってきています。
 
 _2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) がリリースされました。 今回のリリースのハイライトは次のとおりです。 The highlights of the release are:
 
@@ -199,7 +199,7 @@ _2022年1月22日_ -- [Numpy 1.23.0](https://numpy.org/doc/stable/release/1.23.0
   This also unlocks the ability to experiment with the future DType API.
 - ダウンストリームのプロジェクトで使用するための新しい設定可能なメモリー・アロケーターが追加されました。
 
-NumPy 1.22.0は、153人の貢献者が609のプルリクエストを作成した 非常に大きなリリースです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 このリリースでサポートされている Python のバージョンは3.3.9 - 3.11 です。
+NumPy 1.22.0は、153人の貢献者が609のプルリクエストを作成した 非常に大きなリリースです。 このリリースでサポートされている Python のバージョンは 3.8 - 3.10 です。 このリリースでサポートされている Python のバージョンは3.9から 3.12 です。
 
 ### 科学的なPythonエコシステムにおける包括的な文化の前進
 
@@ -239,7 +239,7 @@ Mandarin, Portuguese, Russian, and Spanish.
 
 こちらのリンク先から、アンケートを始めることができます: https://berkeley.qualtrics.com/jfe/form/SV_aaOONjgcBXDSL4q.
 
-### Numpy 1.25.
+### Numpy 1.18.0 リリース
 
 _2021年1月23日_ -- [Numpy 1.21.0](https://numpy.org/doc/stable/release/1.21.0-notes.html) がリリースされました。 今回のリリースのハイライトは下記の通りです。 The highlights of the release are:
 
@@ -255,7 +255,7 @@ people.  今回のNumpy リリースは、175人による581件のプルリク�
 
 ### 2020年度 NumPy アンケート結果
 
-_2021年6月22日_ -- NumPyの調査チームは、2020年に ミシガン大学とメリーランド大学の学生や教員と協力して、最初の公式NumPyコミュニティ調査を実施しました。 アンケートの結果はこちらから確認できます。 https://numpy.org/user-survey-2020/ 今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
+_2021年6月22日_ -- NumPyの調査チームは、2020年に ミシガン大学とメリーランド大学の学生や教員と協力して、最初の公式NumPyコミュニティ調査を実施しました。 アンケートの結果はこちらから確認できます。 https://numpy.org/user-survey-2020/ もし興味がある場合は、研究目標、プライバシー、および 守秘義務に関する追加情報が記載されている、この簡単な[参加者の興味](https://numfocus.typeform.com/to/WBWVJSqe)フォームに記入をお願いします。 多様で包括的なオープンソースソフトウェアコミュニティの 成長と持続可能性のために、このプロジェクトへのあなたの参加は非常に大きな価値があります。 参加を受け入れられた人は、研究チームメンバーと30分間のインタビューに参加することになります。
 
 ### NumPy 1.20.0 リリース
 
@@ -283,15 +283,15 @@ libraries like CuPy, Dask, and JAX.
 
 ### Python 3.9のリリースに伴い、いつNumPyのバイナリwheelがリリースされるのですか？
 
-_2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) がリリースされました。 この 1.19 シリーズの最新リリースでは、いくつかのバグが修正され、[ 来るべき Cython 3.xリリース ](http:/docs.cython.orgenlatestsrcchanges.html)への準備が行われ、アップストリームの修正が進行中の間も distutils の動作を維持するためのsetuptoolsのバージョンの固定が実施されています。 aarch64 wheelは最新のmanylinux2014リリースでビルドされており、異なるLinuxディストリビューションで使用される異なるページサイズの問題が修正されています。 If you are an
+_2020年9月14日_ -- Python 3.9 は数週間後にリリースされる予定です。 もしあなたが新しいPythonのバージョンをいち早く利用している場合、NumPy（およびSciPyのような他のパッケージ）がリリース当日にバイナリwheelを用意していないことを知ってがっかりしたかもしれませんね。 ビルド用のインフラを新しいPythonのバージョンに適応させるのは非常に大変な作業で、PyPIやconda-forgeにパッケージが掲載されるまでには通常数週間かかります。 今後のwheelのリリースに備えて、以下を確認してください。 If you are an
 early adopter of Python versions, you may be dissapointed to find that NumPy
 (and other binary packages like SciPy) will not have binary wheels ready on the
-day of the release. _2020年9月14日_ -- Python 3.9 は数週間後にリリースされる予定です。 もしあなたが新しいPythonのバージョンをいち早く利用している場合、NumPy（およびSciPyのような他のパッケージ）がリリース当日にバイナリwheelを用意していないことを知ってがっかりしたかもしれませんね。 ビルド用のインフラを新しいPythonのバージョンに適応させるのは非常に大変な作業で、PyPIやconda-forgeにパッケージが掲載されるまでには通常数週間かかります。 今後のwheelのリリースに備えて、以下を確認してください。 In preparation for this event, please make sure to
+day of the release. このプロジェクトは私たちのOSSプロジェクトのコミュニティダイナミクスを構造的に改善する方法を発見し、実施することを目指す野心的なプロジェクトです。 このような複数のプロジェクトの横断的な役割を確立することで、Scientific Pythonコミュニティに新しいコラボレーションモデルを導入し、エコシステム内のコミュニティ構築作業をより効率的に、より大きな成果を生めるようにしたいと考えています。 特にこのプロジェクトにより、歴史的にこれまで代表的ではなかったグループからの新しいコントリビュータを引き付け、貢献を維持するために、何がうまくいき、何がうまくいかないかを、より明確に把握できるようになると期待しています。 最後に、実施したアクションについて詳細な報告書を作成し、プロジェクトの代表者やコミュニティとの交流の面で、プロジェクトにどのような影響を与えたかを説明する予定です。 In preparation for this event, please make sure to
 
 - `pip` が`manylinux2010` と `manylinux2014` をサポートするためにpipを少なくともバージョン 20.1 に更新する。
 - [`--only-binary=numpy`](https://pip.pypa.io/en/stable/reference/pip_install/#cmdoption-only-binary) または `--only-binary=:all:` を`pip`がソースからビルドしようとするのを防ぐために使用します。
 
-### Numpy 1.18.0 リリース
+### NumPy 1.19.2 リリース
 
 edu/jfe/form/SV_8bJrXjbhXf7saAl) に協力してもらえると助かります。
 メインの名前空間の型アノテーションは基本的に完了しました。 上流のコードは常に変化するものなので、さらなる改良が必要でしょうが、大きな作業は終わったと考えています。 これはおそらく、今回のリリースで最も目に見える改良でしょう。
@@ -305,7 +305,7 @@ decision-making about the development of NumPy as software and as a community.
 The survey is available in 8 additional languages besides English:
 Bangla, Hindi, Japanese, Mandarin, Portuguese, Russian, Spanish and French.
 
-NumPy をより良くするために、こちらの [アンケート](https://umdsurvey.
+今年もアンケートの時間が来ました。もう一度アンケートへの回答をお願いいたします。 アンケートへの回答は15分ほどで終了します。 アンケートは英語以外にも、ベンガル語、フランス語、ヒンディー語、日本語、マンダリン、ポルトガル語、ロシア語、スペイン語の8ヶ国語に対応しています。
 
 ### NumPy に新しいロゴができました!
 
@@ -354,13 +354,13 @@ More details on our proposed initiatives and deliverables can be found in the [f
 
 Here is a list of NumPy releases, with links to release notes. こちらは、より以前のNumPyリリースのリストで、各リリースノートへのリンクが記載されています。 全てのバグフィックスリリース(バージョン番号`x.y.z` の`z`だけが変更されたもの)は新しい機能追加はされず、マイナーリリース (`y` が増えたもの)は、新しい機能追加されています。
 
-- NumPy 2.1.2 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.1.2)) -- _5 Oct 2024_.
-- _2020年6月20日_ -- NumPy 1.19.0 がリリースされました。 このバージョンは Python 2系のサポートがない最初のリリースであり、"クリーンアップ用のリリース" です。 サポートされている一番古いPython のバージョンは Python 3.6 になりました。 また、今回の重要な新機能はNumPy 1.17.0で導入された乱数生成用のインフラにCythonからアクセスできるようになったことです。
+- NumPy 1.22.4 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _2022年5月20日_.
+- _2020年9月10日_ -- [NumPy 19.2.0](https://numpy.org/devdocs/release/1.19.2-notes.html) がリリースされました。 この 1.19 シリーズの最新リリースでは、いくつかのバグが修正され、[ 来るべき Cython 3.xリリース ](http:/docs.cython.orgenlatestsrcchanges.html)への準備が行われ、アップストリームの修正が進行中の間も distutils の動作を維持するためのsetuptoolsのバージョンの固定が実施されています。 aarch64 wheelは最新のmanylinux2014リリースでビルドされており、異なるLinuxディストリビューションで使用される異なるページサイズの問題が修正されています。
 - _2020年7月2日_ -- このアンケート調査は、NumPyにおける、ソフトウェアとしてとコミュニティの両方における意思決定の指針となり、優先順位を決定する役に立ちました。 この調査結果は英語以外のこれらの8つの言語で利用可能です: バングラ, ヒンディー語, 日本語, マンダリン, ポルトガル語, ロシア語, スペイン語とフランス語.
 - _2021年1月30日_ -- [NumPy 1.20.0](https://numpy.org/doc/stable/release/1.20.0-notes.html) がリリースされました。 今回のリリースは180 人以上のコントリビューターのおかげで、これまでで最大の NumPyのリリースとなりました。 最も重要な2つの新機能は次のとおりです。
 - NumPyプロジェクトの多様性とインクルージョンに関して、我々はどのようなことを実施すればいいでしょうか？ 興味がある方はこちらの [レポート](https://contributor-experience.org/docs/posts/dei-report/) を読んで参加する方法を確認してください。
-- _2020年9月16日_ -- NumPyに関する [ 最初の公式の論文 ](https://www.nature.com/articles/s41586-020-2649-2)がNatureに査読付き論文として掲載されました。 これはNumPy 1.0のリリースから14年後のことになりました。 この論文では、配列プログラミングのアプリケーションと基本的なコンセプト、NumPyの上に構築された様々な科学的Pythonエコシステム、そしてCuPy、Dask、JAXのような外部の配列およびテンソルライブラリとの相互運用を容易にするために最近追加された配列プロトコルについて説明しています。
-- NumPy 1.21.6 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _2022年4月12日_.
+- _2020年6月20日_ -- NumPy 1.19.0 がリリースされました。 このバージョンは Python 2系のサポートがない最初のリリースであり、"クリーンアップ用のリリース" です。 サポートされている一番古いPython のバージョンは Python 3.6 になりました。 また、今回の重要な新機能はNumPy 1.17.0で導入された乱数生成用のインフラにCythonからアクセスできるようになったことです。
+- _2019年12月22日_ -- NumPy 1.18.0 がリリースされました。 このリリースは、1.17.0での主要な変更の後の、まとめのようなリリースです。 Python 3.5 をサポートする最後のマイナーリリースになります。 今回のリリースでは、64ビットのBLASおよびLAPACKライブラリとリンクするためのインフラの追加や、`numpy.random`のための新しいC-APIの追加などが行われました。
 - _2021年7月12日_ -- NumPy ではコミュニティの力を信じています。 昨年の第1回アンケートには、75カ国から1,236名のNumPyユーザーが参加してくれました。 この調査結果により、今後12ヶ月間、私たちがどのようなことに集中すべきかを、非常に良く理解することができました。
 - NumPy 1.26.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _2023年11月12日_.
 - NumPy 1.26.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _2023年10月14日_.
@@ -379,8 +379,8 @@ Here is a list of NumPy releases, with links to release notes. こちらは、�
 - NumPy 1.23.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.23.2)) -- _2022年8月14日_.
 - NumPy 1.23.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.23.1)) -- _2022年7月8日_.
 - NumPy 1.23.0 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.23.0)) -- _2022年6月22日_.
-- NumPy 1.22.4 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.22.4)) -- _2022年5月20日_.
-- Numpy 1.23.
+- _2020年9月16日_ -- NumPyに関する [ 最初の公式の論文 ](https://www.nature.com/articles/s41586-020-2649-2)がNatureに査読付き論文として掲載されました。 これはNumPy 1.0のリリースから14年後のことになりました。 この論文では、配列プログラミングのアプリケーションと基本的なコンセプト、NumPyの上に構築された様々な科学的Pythonエコシステム、そしてCuPy、Dask、JAXのような外部の配列およびテンソルライブラリとの相互運用を容易にするために最近追加された配列プロトコルについて説明しています。
+- NumPy 1.21.6 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.21.6)) -- _2022年4月12日_.
 - NumPy 1.22.3 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.18.2)) -- _2022年3月7日_.
 - NumPy 1.22.2 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.22.2)) -- _2022年2月3日_.
 - NumPy 1.22.1 ([リリースノート](https://github.com/numpy/numpy/releases/tag/v1.22.1)) -- _2022年1月14日_.
