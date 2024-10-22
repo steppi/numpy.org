@@ -107,7 +107,7 @@ Também estamos organizando um time de tradutores que serão responsáveis por t
 
 ### NumPy versão 1.23.0
 
-_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. The highlights of the release are:
+_17 de junho, 2023_ -- [NumPy 1.25.0](https://numpy.org/doc/stable/release/1.25.0-notes.html) está disponível agora. Os destaques desta versão são:
 
 - Suporte para MUSL, agora existem rodas MUSL.
 - Suporte para o compilador Fujitsu C/C++.
@@ -300,7 +300,7 @@ Aqui está uma lista de versões do NumPy, com links para notas de lançamento. 
 - NumPy 2.0.1 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.1)) -- _21 Jul 2024_.
 - NumPy 2.0.0 ([release notes](https://github.com/numpy/numpy/releases/tag/v2.0.0)) -- _16 Jun 2024_.
 - NumPy 1.26.4 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.4)) -- _5 Feb 2024_.
-- NumPy 1.26.3 ([release notes](https://github.com/numpy/numpy/releases/tag/v1.26.3)) -- _2 Jan 2024_.
+- _22 de junho de 2022_ -- O [NumPy 1.23.0](https://numpy.org/doc/stable/release/1.23.0-notes.html) está disponível. Os destaques desta versão são:
 - NumPy 1.26.2 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.2)) -- _12 de novembro de 2023_.
 - NumPy 1.26.1 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.1)) -- _14 de outubro de 2023_.
 - NumPy 1.26.0 ([notas de versão](https://github.com/numpy/numpy/releases/tag/v1.26.0)) -- _16 de setembro de 2023_.
