@@ -28,7 +28,7 @@ params:
     features:
       - 
         title: Primera imagen de un Agujero Negro
-        text: Cómo NumPy, junto con Librería como SciPy y Matplotlib que dependen de NumPy, permitió al Telescopio del Horizonte de Sucesos producir la primera imagen de un agujero negro
+        text: Cómo NumPy, junto con bibliotecas como SciPy y Matplotlib que dependen de NumPy, permitió al Telescopio del Horizonte de Sucesos producir la primera imagen de un agujero negro
         img: /images/content_images/case_studies/blackhole.png
         alttext: Primera imagen de un agujero negro. Es un círculo anaranjado con fondo negro.
         url: /es/case-studies/blackhole-image
