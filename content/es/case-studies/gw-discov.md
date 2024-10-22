@@ -30,7 +30,7 @@ El [Observatorio de Ondas Gravitacionales por Interferometría Láser (LIGO)](ht
 
 - **Cálculo**
 
-  Las Ondas Gravitacionales son difíciles de detectar, ya que producen un efecto muy pequeño y tienen una diminuta interacción con la materia. Después de ocuparse del ruido, que es miles de millones de veces mayor que la señal, aún quedan ecuaciones de relatividad muy complejas y enormes cantidades de datos que suponen un desafío computacional: [se necesitan aproximadamente O(10^7) horas de CPU para los análisis de fusiones binarias](https://youtu.be/7mcHknWWzNI), distribuidas en 6 clústeres dedicados de LIGO
+  Las Ondas Gravitacionales son difíciles de detectar, ya que producen un efecto muy pequeño y tienen una diminuta interacción con la materia. Procesar y analizar todos los datos de LIGO requiere una vasta infraestructura informática. Después de ocuparse del ruido, que es miles de millones de veces mayor que la señal, aún quedan ecuaciones de relatividad muy complejas y enormes cantidades de datos que suponen un desafío computacional: [se necesitan aproximadamente O(10^7) horas de CPU para los análisis de fusiones binarias](https://youtu.be/7mcHknWWzNI), distribuidas en 6 clústeres dedicados de LIGO
 
 - **Avalancha de Datos**
 
