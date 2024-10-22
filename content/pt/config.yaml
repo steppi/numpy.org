@@ -55,16 +55,16 @@ params:
   section5: false
   navbar:
     - 
-      title: Install
+      title: Instalação
       url: /pt/install
     - 
-      title: Documentation
+      title: Documentação
       url: https://numpy.org/doc/stable
     - 
-      title: Learn
+      title: Aprenda
       url: /pt/learn
     - 
-      title: Community
+      title: Comunidade
       url: /pt/community
     - 
       title: Sobre
