@@ -96,7 +96,7 @@ attributionlink = 'https://www.iorxiv.org/content/10.1101/476531v1.full.pdf'
 
 ## El Papel de NumPy para afrontar los desafíos de la estimación de postura
 
-NumPy aborda la necesidad central de la tecnología de DeepLabCut de realizar cálculos numéricos a alta velocidad para el análisis del comportamiento.  Además de NumPy, DeepLabCut emplea varios softwares de Python que utilizan NumPy en su núcleo, como [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) y [Tensorflow](https://www.tensorflow.org).
+Muestreo Aleatorio  Además de NumPy, DeepLabCut emplea varios softwares de Python que utilizan NumPy en su núcleo, como [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org), [matplotlib](https://matplotlib.org), [Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug), [scikit-learn](https://scikit-learn.org/stable/), [scikit-image](https://scikit-image.org) y [Tensorflow](https://www.tensorflow.org).
 
 Las siguientes características de NumPy jugaron un papel clave en abordar el procesamiento de imágenes, los requisitos de combinatoria y la necesidad de cálculos rápidos en los algoritmos de estimación de posturas de DeepLabCut:
 
